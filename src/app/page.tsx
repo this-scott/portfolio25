@@ -1,6 +1,9 @@
 import Image from "next/image";
 import fire from "@/assets/th2025_crop.jpg"
 import aboutme_photo from "@/assets/GradPhotoCrop.jpg"
+import ug from "@/assets/UndergraduateResearcher.jpg"
+import { InfoCard } from "@/components/infoCard";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -10,7 +13,7 @@ export default function Home() {
           <div className="flex flex-row gap-3 justify-end pr-4 pb-4">
             <h1>blog</h1>
             <h1>github</h1>
-            <h1>linked</h1>
+            <h1>linkedIn</h1>
           </div>
           <div className="flex flex-row flex-wrap justify-evenly h-full">
             <div className="flex-1 flex flex-col items-center justify-center">
@@ -24,12 +27,55 @@ export default function Home() {
           </div>
         </div>
         <div id="about me section" className="flex flex-col w-full">
-          <h1 className="text-center font-bold font-black text-6xl">About Me</h1>
+          <h1 className="text-center font-bold font-black text-6xl sm: pb-12">About Me</h1>
           <div className="flex flex-row flex-wrap justify-evenly h-full">
-            <div id="aboutmetext" className="flex-1 flex flex-col items-center justify-center">
-              <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam atque error nemo, tenetur minima sapiente accusantium tempora aliquid numquam nobis aut. Repellat labore repudiandae et nemo soluta! Repudiandae, corporis consectetur.</h1>
+            <div id="aboutmetext" className="flex-1 flex flex-col sm: pl-20">
+              <h2 className="text-xl">I'm a</h2>
+              <InfoCard 
+                title={"Pitt Bachelor of Science"} 
+                subtitle={'Information Science Major (Data Engineering Focus) \n Computer Science Minor GPA: 3.2'} 
+                text={["4 time hackathon competitor (1 award)", "VP of Public Relations for the Kappa Theta Pi Co-Ed Fraternity", "Undergraduate Researcher @ CMU Robotics Institute(spoilers for the next slide)"]} >
+              </InfoCard>
+              <h2 className="font-black font-bold text-2xl pt-6 hover:underline">
+                <a target="_blank" rel="noopener noreffer" href="https://scott-cv-presentation-slide-resources.s3.us-east-1.amazonaws.com/AWS+Certified+Cloud+Practitioner+certificate.pdf">
+                AWS Certified Cloud Practitioner
+                </a>
+              </h2>
+              <h2 className="font-black font-bold text-2xl pt-6">
+                Hobby Programmer + Leetcoder
+              </h2>
+              <h2 className="text-xl pt-6">Currently I'm a</h2>
+              <InfoCard
+                title={"Service Technician @ Serve Robotics"}
+                subtitle=""
+                text={["Starting this position September 19"]}>
+              </InfoCard>
             </div>
-            <Image className="w-1/4 h-auto object-contain" src={aboutme_photo} alt="aboutme_photo"></Image>
+            <Image className="h-auto object-contain sm:pr-15 sm:w-1/4" src={aboutme_photo} alt="aboutme_photo"></Image>
+          </div>
+        </div>
+        <div id="previously section" className="flex flex-col w-full">
+          <h1 className="text-center font-bold font-black text-6xl sm: pb-12">I've also been a</h1>
+          <div className="flex flex-row flex-wrap justify-evenly h-full">
+            <div id="aboutmetext" className="flex-1 flex flex-col sm: pl-20">
+              <div className="pt-4">
+                <InfoCard
+                  title={"Systems Intern @ Journey Robotics"}
+                  subtitle="April 2025-August 2025"
+                  text={["resumetext","resumetext","resumetext"]}>
+                
+                </InfoCard>
+              </div>
+              <div className="pt-10">
+                <InfoCard
+                  title={"Undergraduate Researcher @ CMU Biorobotics"}
+                  subtitle="September 2023-April 2025"
+                  text={["resumetext","resumetext","resumetext"]}>
+
+                </InfoCard>
+              </div>
+            </div>
+            <Image className="h-auto object-contain sm:w-1/4" src={ug} alt="aboutme_photo"></Image>
           </div>
         </div>
       </main>
