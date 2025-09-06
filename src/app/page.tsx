@@ -6,6 +6,7 @@ import { InfoCard, LinkText } from "@/components/infoCard";
 import { GalleryCard } from "@/components/galleryCard";
 import Steelhax_tensors from "@/assets/Tensors.png";
 import Lit from "@/assets/SteelhacksXI.jpeg"
+import hamster from "@/app/favicon.ico"
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
           <div className="flex flex-row flex-wrap justify-evenly h-full">
             <div id="maintitle" className="flex-1 flex flex-col items-center justify-center snap-center">
               <div id="not another div">
-                <h4 className="text-xl">Hi I'm</h4>
+                <h4 className="text-xl">{"Hi I'm"}</h4>
                 <h1 className="font-bold font-black text-8xl">Scott Styslinger</h1>
                 <h4 className="pt-1 text-xl">This is a small about-me website. Sit back, relax, and start scrolling</h4>
               </div>
@@ -33,7 +34,7 @@ export default function Home() {
           <h1 className="text-center font-bold font-black text-6xl lg:pb-12">About Me</h1>
           <div className="flex flex-row flex-wrap justify-evenly h-full">
             <div id="aboutmetext" className="flex-1 flex flex-col lg:pl-20">
-              <h2 className="text-xl">I'm a</h2>
+              <h2 className="text-xl">{"I'm a"}</h2>
               <InfoCard
                 title={"Pitt Bachelor of Science"}
                 subtitle={'Information Science Major (Data Engineering Focus) \n Computer Science Minor GPA: 3.2'}
@@ -48,7 +49,7 @@ export default function Home() {
               <h2 className="font-black font-bold text-2xl pt-6">
                 Hobby Programmer + Leetcoder
               </h2>
-              <h2 className="text-xl pt-6">I'm also a</h2>
+              <h2 className="text-xl pt-6">{"I'm also a"}</h2>
               <InfoCard
                 title={"Service Technician @ Serve Robotics"}
                 subtitle=""
@@ -89,7 +90,7 @@ export default function Home() {
                   extra={[]}>
                 </InfoCard>
               </div>
-              <h2 className="font-black font-bold text-2xl pt-4">I've also been a tour guide, busboy, summer camp counselor, and Domino's delivery driver</h2>
+              <h2 className="font-black font-bold text-2xl pt-4">{"I've also been a tour guide, busboy, summer camp counselor, and Domino's delivery driver"}</h2>
             </div>
             <Image className="h-auto object-contain w-1/4" src={ug} alt="aboutme_photo"></Image>
           </div>
@@ -98,7 +99,7 @@ export default function Home() {
           <div className="flex justify-center">
             <div className="flex flex-col">
               <h2 className="text-2xl pt-2">Here are some</h2>
-              <h1 className="font-bold font-black text-6xl">Projects I've worked on</h1>
+              <h1 className="font-bold font-black text-6xl">{"Projects I've worked on"}</h1>
               <h3>(The Gallery Section)</h3>
             </div>
           </div>
@@ -110,7 +111,7 @@ export default function Home() {
               "The majority of my work is listed above"
             ]}
             link={"https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7330985779684384769?compact=1"}
-            extras={[<LinkText text="More Information" src="https://www.journeyrobotics.com/" />]}
+            extras={[<LinkText key={1} text="More Information" src="https://www.journeyrobotics.com/" />]}
           />
           <GalleryCard
             title={"Harddrive Screw Remover"}
@@ -122,7 +123,7 @@ export default function Home() {
               "Supported other undergraduate coworkers delegating tasks which fit their interests"
             ]}
             link={"https://drive.google.com/file/d/14ujnJgRBxbtB4BcVi4S2QRCynOP8oaFS/preview"}
-            extras={[<p>Prequel project to <LinkText text="Roboloop" src="https://www.cmu.edu/news/stories/archives/2025/february/cmu-robot-works-inside-e-waste-recycling-facility" /></p>]}
+            extras={[<p key={7}>Prequel project to <LinkText key={2} text="Roboloop" src="https://www.cmu.edu/news/stories/archives/2025/february/cmu-robot-works-inside-e-waste-recycling-facility" /></p>]}
           />
           <GalleryCard
             title={"Visiboard"}
@@ -135,8 +136,8 @@ export default function Home() {
             ]}
             link={"https://drive.google.com/file/d/1hHkp_fXpS9Jlttb8I74P20vvrbuXB-Ho/preview"}
             extras={[
-              <LinkText src="https://scott-cv-presentation-slide-resources.s3.us-east-1.amazonaws.com/Tartanhacks+2025.pdf" text="Slides" />,
-              <LinkText src="https://github.com/Gabifern/TartanHacks2025" text="Github" />
+              <LinkText key={3} src="https://scott-cv-presentation-slide-resources.s3.us-east-1.amazonaws.com/Tartanhacks+2025.pdf" text="Slides" />,
+              <LinkText key={4} src="https://github.com/Gabifern/TartanHacks2025" text="Github" />
             ]}
           />
           <GalleryCard
@@ -169,8 +170,8 @@ export default function Home() {
                   "Scored biodiversity according to ratio between open space, water, and shaded space for habitats"
                 ]}
                 extra={[
-                  <LinkText src="https://scott-cv-presentation-slide-resources.s3.us-east-1.amazonaws.com/Rewilding+Project.pdf" text="Slides"/>,
-                  <LinkText src="https://github.com/liambsulliva/rewilding-planner" text="Github"/>
+                  <LinkText key={5} src="https://scott-cv-presentation-slide-resources.s3.us-east-1.amazonaws.com/Rewilding+Project.pdf" text="Slides"/>,
+                  <LinkText key={6} src="https://github.com/liambsulliva/rewilding-planner" text="Github"/>
                 ]}
               />
             </div>
@@ -184,6 +185,7 @@ export default function Home() {
               <h3>I wanted to put this online before I built it out more so this is all you get</h3>
               <a className="hover:underline" href="#maintitle">Scroll to top</a>
             </div>
+                <Image className="w-1/12" src={hamster} alt="construction hamster"></Image>
           </div>
         </div>
       </main>
