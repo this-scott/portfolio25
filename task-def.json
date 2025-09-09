@@ -1,0 +1,56 @@
+{
+  "family": "portfolio_frontend",
+  "networkMode": "bridge",
+  "requiresCompatibilities": [
+    "EC2"
+  ],
+  "cpu": "1024",
+  "memory": "1024",
+  "executionRoleArn": "arn:aws:iam::294523216778:role/ecsTaskExecutionRole",
+  "containerDefinitions": [
+    {
+      "name": "portfolio25",
+      "image": "294523216778.dkr.ecr.us-east-1.amazonaws.com/portfolio25:latest",
+      "cpu": 0,
+      "memory": null,
+      "essential": true,
+      "portMappings": [
+        {
+          "name": "portfolio25-3000-80-tcp",
+          "containerPort": 3000,
+          "hostPort": 80,
+          "protocol": "tcp",
+          "appProtocol": "http2"
+        }
+      ],
+      "environment": [],
+      "environmentFiles": [],
+      "mountPoints": [],
+      "volumesFrom": [],
+      "ulimits": [],
+      "systemControls": [],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/",
+          "awslogs-create-group": "true",
+          "awslogs-region": "us-east-1",
+          "awslogs-stream-prefix": "ecs"
+        },
+        "secretOptions": []
+      }
+    }
+  ],
+  "volumes": [],
+  "placementConstraints": [],
+  "runtimePlatform": {
+    "cpuArchitecture": "X86_64",
+    "operatingSystemFamily": "LINUX"
+  },
+  "tags": [
+    {
+      "key": "project",
+      "value": "portfolio25"
+    }
+  ]
+}
