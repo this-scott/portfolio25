@@ -1,8 +1,9 @@
 # Portfolio 2025
 
 ## My portfolio website
-
+<a target="_blank" href="https://scottstyslinger.com">
 <img width="1829" height="845" alt="Screenshot from 2025-09-09 13-31-02" src="https://github.com/user-attachments/assets/36f76d78-d457-4719-b03d-cd9279af6b71" />
+</a>
 
 This is just a small website for me to showcase my projects and experiences.
 
