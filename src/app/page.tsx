@@ -23,14 +23,14 @@ export default function Home() {
             <div id="maintitle" className="flex-1 flex flex-col items-center justify-center snap-center">
               <div id="not another div">
                 <h4 className="text-xl">{"Hi I'm"}</h4>
-                <h1 className="font-bold font-black text-8xl">Scott Styslinger</h1>
+                <h1 className="font-bold font-black text-6xl sm:text-8xl">Scott Styslinger</h1>
                 <h4 className="pt-1 text-xl">This is a small about-me website. Sit back, relax, and start scrolling</h4>
               </div>
             </div>
             <Image className="w-auto flex-1 h-auto min-w-100" src={fire} alt="landing_photo"></Image>
           </div>
         </div>
-        <div id="about me section" className="flex flex-col w-full snap-start">
+        <div id="about me section" className="flex flex-col flex-wrap w-full snap-start">
           <h1 className="text-center font-bold font-black text-6xl lg:pb-12">About Me</h1>
           <div className="flex flex-row flex-wrap justify-evenly h-full">
             <div id="aboutmetext" className="flex-1 flex flex-col lg:pl-20">
@@ -57,13 +57,13 @@ export default function Home() {
                 extra={[]}>
               </InfoCard>
             </div>
-            <Image className="h-auto object-contain lg:pr-10 w-1/4" src={aboutme_photo} alt="aboutme_photo"></Image>
+            <Image className="h-auto object-contain lg:pr-10 w-full md:w-1/4" src={aboutme_photo} alt="aboutme_photo"></Image>
           </div>
         </div>
         <div id="previously section" className="flex flex-col w-full snap-start">
-          <h1 className="text-center font-bold font-black text-6xl pb-1 lg:pb-2">My Previous Roles</h1>
+          <h1 className="text-center font-bold font-black text-6xl pb-4 md:pb-6">My Previous Roles</h1>
           <div className="flex flex-row flex-wrap justify-evenly h-full gap-8">
-            <div id="aboutmetext" className="flex-1 flex flex-col lg:pl-20">
+            <div id="aboutmetext" className="flex-1 flex flex-col">
               <div className="pt-4">
                 <InfoCard
                   title={"Systems Intern @ Journey Robotics"}
@@ -92,7 +92,7 @@ export default function Home() {
               </div>
               <h2 className="font-black font-bold text-2xl pt-4">{"I've also been a tour guide, busboy, summer camp counselor, and Domino's delivery driver"}</h2>
             </div>
-            <Image className="h-auto object-contain w-1/4" src={ug} alt="aboutme_photo"></Image>
+            <Image className="h-auto object-containw-full md:w-1/3" src={ug} alt="aboutme_photo"></Image>
           </div>
         </div>
         <div id="gallery section" className="flex flex-col w-full gap-12 snap-start">
@@ -151,8 +151,8 @@ export default function Home() {
             link={"https://drive.google.com/file/d/1ELr0guDzNnKHQqBIyhHyNJyc21934TNr/preview"}
             extras={[]}
           />
-          <div id="steelhax2024_card" className="lg:pl-20 gap-5 w-full h-auto flex flex-row w-full">
-            <div id="steelhax_media" className="flex flex-row w-full object-contain h-auto">
+          <div id="steelhax2024_card" className="w-full h-auto flex flex-wrap flex-row w-full">
+            <div id="steelhax_media" className="flex flex-row w-full md:w-3/5 object-contain h-auto">
               <div className="w-3/4 h-auto flex">
                 <Image className="w-full h-full object-fill" src={Steelhax_tensors} alt="Steelhax_tensors"></Image>
               </div>
@@ -160,7 +160,7 @@ export default function Home() {
                 <Image src={Lit} alt="Steelhacks_award"></Image>
               </div>
             </div>
-            <div className="w-3/5">
+            <div className="w-full pt-6 md:w-2/5">
               <InfoCard
                 title="Rewilding Project"
                 subtitle="Steelhacks XI"
@@ -177,13 +177,13 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div id="construction-section" className="snap-end w-full">
-          <div className="flex justify-center">
+        <div id="construction-section" className="snap-end w-full px-10">
+          <div className="flex flex-wrap justify-center">
             <div className="flex flex-col">
               <h2 className="text-2xl pt-2">And the rest is...</h2>
               <h1 className="font-bold font-black text-6xl">Under Construction</h1>
               <h3>I wanted to put this online before I built it out more so this is all you get</h3>
-              <a className="hover:underline" href="#maintitle">Scroll to top</a>
+              <a className="hover:font-bold underline" href="#maintitle">Scroll to top</a>
             </div>
                 <Image className="w-1/12" src={hamster} alt="construction hamster"></Image>
           </div>
