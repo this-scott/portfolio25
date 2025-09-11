@@ -185,7 +185,7 @@ const currentLCStreak = await fetchLeetcodeValue("this-scott", "streakLength")
             <div id="More projects link" className="flex w-full justify-center snap-center pt-6">
               <div className="flex flex-col">
                   <h2 className="text-2xl pt-2">You can find</h2>
-                  <Link href="#construction-section"><h1 className="font-bold font-black text-5xl underline">More Projects Here</h1></Link>
+                  <Link target="_blank" rel="noopener noreffer" href={`/construction`}><h1 className="font-bold font-black text-5xl underline">More Projects Here</h1></Link>
               </div>
             </div>
           </div>
@@ -219,13 +219,13 @@ const currentLCStreak = await fetchLeetcodeValue("this-scott", "streakLength")
               <h2 className="font-black font-bold text-4xl whitespace-pre-line">Methods</h2>
                 <ul className="ml-6 text-xl font-medium list-disc">
                   <li>Log what I Learn:</li>
-                      <p className="font-medium ml-4 text-base">I like to retrace my steps in case I forget something. I use <a target="_blank" rel="noopener noreffer" href="obsidian.md" className="hover:font-bold underline">Obsidian.md</a> to tag my notes and clip important websites so I can easily access what I've learned. Here is a screenshot of my graph where each node is a notepage and green nodes represent tags that connect them. 
+                      <p className="font-medium ml-4 text-base">I like to retrace my steps in case I forget something. I use <a target="_blank" rel="noopener noreffer" href="obsidian.md" className="hover:font-bold underline">Obsidian.md</a> to tag my notes and clip important websites so I can easily access what I{"'"}ve learned. Here is a screenshot of my graph where each node is a notepage and green nodes represent tags that connect them. 
                         </p>
                   <li>Drill a foundation before I build:</li>
-                    <p className="font-medium ml-4 text-base">While learning on the fly is a part of almost every project, before I start a project I take a few days to learn the basics of every core component then use Obsidian or Lucidchart to scaffold how they'll work together.</p>
+                    <p className="font-medium ml-4 text-base">While learning on the fly is a part of almost every project, before I start a project I take a few days to learn the basics of every core component then use Obsidian or Lucidchart to scaffold how they{"'"}ll work together.</p>
                   <li>Prioritize</li>
-                    <p className="font-medium ml-4 text-base">I thank <a target="_blank" rel="noopener noreffer" href="https://www.barnesandnoble.com/w/the-7-habits-of-highly-effective-people-stephen-r-covey/1136602703" className="hover:font-bold underline">Stephen Covey's 7 Habits</a> for helping me learn this. 
-                    I've always been ready to learn but my worst habit in college was prioritizing personal projects over immediate schoolwork. Now I use every Sunday to rough draft my week so I know what comes first.</p>
+                    <p className="font-medium ml-4 text-base">I thank <a target="_blank" rel="noopener noreffer" href="https://www.barnesandnoble.com/w/the-7-habits-of-highly-effective-people-stephen-r-covey/1136602703" className="hover:font-bold underline">Stephen Covey{"'"}s 7 Habits</a> for helping me learn this. 
+                    I{"'"}ve always been ready to learn but my worst habit in college was prioritizing personal projects over immediate schoolwork. Now I use every Sunday to rough draft my week so I know what comes first.</p>
                 </ul>
             </div>
           </div>
@@ -267,8 +267,8 @@ const currentLCStreak = await fetchLeetcodeValue("this-scott", "streakLength")
               <h1 className="font-bold font-black text-6xl text-center">Contact Me</h1>
               <div className="flex flex-col">
               <h3>I put together and self hosted this website in less than two weeks.</h3>
-              <h3>It's my first experiment with Elastic Container Service, Github Actions, and Next.js in over two years</h3>
-              <h3>If I feel like a good fit for your project or company it'd be great to get in touch:</h3>
+              <h3>It{"'"}s my first experiment with Elastic Container Service, Github Actions, and Next.js in over two years</h3>
+              <h3>If I feel like a good fit for your project or company it{"'"}d be great to get in touch:</h3>
               </div>
               <div className="flex flex-row font-medium font-black px-12 justify-evenly p-3">
                 <a target="_blank" rel="noopener noreffer" href="https://scott-cv-presentation-slide-resources.s3.us-east-1.amazonaws.com/Scott_Styslinger_Resume.pdf"><h1 className="hover:font-bold hover:underline">resume</h1></a>
