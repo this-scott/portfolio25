@@ -220,7 +220,7 @@ const currentLCStreak = await fetchLeetcodeValue("this-scott", "streakLength")
               <h2 className="font-black font-bold text-4xl whitespace-pre-line">Methods</h2>
                 <ul className="ml-6 text-xl font-medium list-disc">
                   <li>Fail fast, learn faster</li>
-                      <p className="font-medium ml-4 text-base">When programming, there is almost always room to rework and rebuild. I use <a target="_blank" rel="noopener noreffer" href="https://obsidian.md" className="hover:font-bold underline">Obsidian.md</a> to tag my notes and clip important websites so I can easily access what I{"'"}ve learned. On the graph below, each node represents a page of notes about something I've learned, planned, or implemented.
+                      <p className="font-medium ml-4 text-base">When programming, there is almost always room to rework and rebuild. I use <a target="_blank" rel="noopener noreffer" href="https://obsidian.md" className="hover:font-bold underline">Obsidian.md</a> to tag my notes and clip important websites so I can easily access what I{"'"}ve learned. On the graph below, each node represents a page of notes about something I{"'"}ve learned, planned, or implemented.
                         </p>
                   <li>Drill a foundation before I build:</li>
                     <p className="font-medium ml-4 text-base">While learning on the fly is a part of almost every project, before I start a project I take a few days to learn the basics of every core component then use Obsidian or Lucidchart to scaffold how they{"'"}ll work together.</p>
