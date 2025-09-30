@@ -29,7 +29,8 @@ const currentLCStreak = await fetchLeetcodeValue("this-scott", "streakLength")
               <div id="not another div">
                 <h4 className="text-xl">{"Hi I'm"}</h4>
                 <h1 className="font-bold font-black text-6xl sm:text-8xl">Scott Styslinger</h1>
-                <h4 className="pt-1 text-xl">Information Science Graduate, Robot Technician, aspiring IT Architect</h4>
+                <h4 className="pt-1 text-xl">Information Science Graduate, Software Engineer, aspiring IT Architect</h4>
+                <Link href="/vercel"><h5 className="hover:underline">Now on Vercel</h5></Link>
               </div>
             </div>
             <Image className="w-auto flex-1 h-auto min-w-100" src={fire} alt="landing_photo"></Image>
@@ -58,9 +59,9 @@ const currentLCStreak = await fetchLeetcodeValue("this-scott", "streakLength")
               <li className="list-disc ml-6 text-lg">{problemsCompleted} total problems completed</li>
               <h2 className="text-xl pt-6">{"I'm also a"}</h2>
               <InfoCard
-                title={"Service Technician @ Serve Robotics"}
+                title={"Full Stack Intern @ Capitol CNCT"}
                 subtitle=""
-                text={["Starting on September 22"]}
+                text={["Part Time"]}
                 extra={[]}>
               </InfoCard>
             </div>
@@ -185,7 +186,7 @@ const currentLCStreak = await fetchLeetcodeValue("this-scott", "streakLength")
             <div id="More projects link" className="flex w-full justify-center snap-center pt-6">
               <div className="flex flex-col">
                   <h2 className="text-2xl pt-2">You can find</h2>
-                  <Link target="_blank" rel="noopener noreffer" href={`/construction`}><h1 className="font-bold font-black text-5xl underline">More Projects Here</h1></Link>
+                  <Link target="_blank" rel="noopener noreffer" href={`https://github.com/this-scott`}><h1 className="font-bold font-black text-5xl underline">More Projects Here</h1></Link>
               </div>
             </div>
           </div>
@@ -203,7 +204,7 @@ const currentLCStreak = await fetchLeetcodeValue("this-scott", "streakLength")
                 <ul className="ml-6 text-xl font-medium list-disc justify-evenly h-full">
                   <li className="lg:pb-1">Dream Field: SWE or OPs for handling multiple physical ai systems</li>
                   <li className="lg:pb-1">Have an on-premise service handle 1000 simultaneous users</li>
-                  <li className="lg:pb-1">Lead an Engineering team from project start to completion</li>
+                  <li className="lg:pb-1">Lead an engineering team from project start to completion</li>
                 </ul>
               </div>
             <div className="flex-col flex lg:w-1/3">
@@ -218,8 +219,8 @@ const currentLCStreak = await fetchLeetcodeValue("this-scott", "streakLength")
             <div className="flex-col flex lg:w-1/3">
               <h2 className="font-black font-bold text-4xl whitespace-pre-line">Methods</h2>
                 <ul className="ml-6 text-xl font-medium list-disc">
-                  <li>Log what I Learn:</li>
-                      <p className="font-medium ml-4 text-base">I like to retrace my steps in case I forget something. I use <a target="_blank" rel="noopener noreffer" href="obsidian.md" className="hover:font-bold underline">Obsidian.md</a> to tag my notes and clip important websites so I can easily access what I{"'"}ve learned. Here is a screenshot of my graph where each node is a notepage and green nodes represent tags that connect them. 
+                  <li>Fail fast, learn faster</li>
+                      <p className="font-medium ml-4 text-base">When programming, there is almost always room to rework and rebuild. I use <a target="_blank" rel="noopener noreffer" href="https://obsidian.md" className="hover:font-bold underline">Obsidian.md</a> to tag my notes and clip important websites so I can easily access what I{"'"}ve learned. On the graph below, each node represents a page of notes about something I've learned, planned, or implemented.
                         </p>
                   <li>Drill a foundation before I build:</li>
                     <p className="font-medium ml-4 text-base">While learning on the fly is a part of almost every project, before I start a project I take a few days to learn the basics of every core component then use Obsidian or Lucidchart to scaffold how they{"'"}ll work together.</p>
