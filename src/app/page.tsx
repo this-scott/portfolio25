@@ -44,7 +44,7 @@ const currentLCStreak = await fetchLeetcodeValue("this-scott", "streakLength")
               <InfoCard
                 title={"Pitt Bachelor of Science"}
                 subtitle={'Information Science Major (Data Engineering Focus) \n Computer Science Minor GPA: 3.2'}
-                text={["4 time hackathon competitor (1 award)", "VP of Public Relations for the Kappa Theta Pi Co-Ed Fraternity", "Undergraduate Researcher @ CMU Robotics Institute, Biorobotics Lab"]}
+                text={["4 time hackathon competitor (1 award)", "VP of Public Relations for the Kappa Theta Pi Co-Ed Fraternity (2 years)", "Undergraduate Researcher @ CMU Robotics Institute, Biorobotics Lab (2 years)"]}
                 extra={[]}>
               </InfoCard>
               <h2 className="text-2xl pt-6">
