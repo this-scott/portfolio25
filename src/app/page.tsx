@@ -19,10 +19,9 @@ const problemsCompleted = await fetchLeetcodeValue("this-scott", "submissionCoun
       <main className="flex object-fill flex-col gap-10 lg:items-start xl:gap-30">
         <div id="first sight" className="flex flex-col">
           <div className="flex flex-row gap-3 justify-end pr-4 pb-4">
-            <a target="_blank" rel="noopener noreffer" href="https://scott-cv-presentation-slide-resources.s3.us-east-1.amazonaws.com/Scott_Styslinger_Resume.pdf"><h1 className="font-medium hover:underline">resume</h1></a>
-            <Link target="_blank" rel="noopener noreffer" href={`/construction`}><h1 className="font-medium hover:underline">blog</h1></Link>
-            <a target="_blank" rel="noopener noreffer" href="https://github.com/this-scott"><h1 className="font-medium hover:underline">github</h1></a>
-            <a target="_blank" rel="noopener noreffer" href="https://linkedin.com/in/this-scott"><h1 className="font-medium hover:underline">linkedIn</h1></a>
+            <a target="_blank" rel="noopener noreffer" href="https://scott-cv-presentation-slide-resources.s3.us-east-1.amazonaws.com/Scott_Styslinger_Resume.pdf"><h1 className="font-medium hover:underline">Resume</h1></a>
+            <a target="_blank" rel="noopener noreffer" href="https://github.com/this-scott"><h1 className="font-medium hover:underline">Github</h1></a>
+            <a target="_blank" rel="noopener noreffer" href="https://linkedin.com/in/this-scott"><h1 className="font-medium hover:underline">LinkedIn</h1></a>
           </div>
           <div className="flex flex-row flex-wrap justify-evenly h-full">
             <div id="maintitle" className="pr-2 lg:pr-0 flex-1 flex flex-col items-center justify-center snap-center">
@@ -43,7 +42,7 @@ const problemsCompleted = await fetchLeetcodeValue("this-scott", "submissionCoun
             <div id="aboutmetext" className="flex-1 flex flex-col">
               <InfoCard
                 title={"Pitt Bachelor of Science"}
-                subtitle={'Information Science Major (Data Engineering Focus) \n Computer Science Minor GPA: 3.2'}
+                subtitle={'Information Science Major (Data Engineering Focus) \n Computer Science Minor, GPA: 3.2'}
                 text={["4 time hackathon competitor (1 award)", "VP of Public Relations for the Kappa Theta Pi Co-Ed Fraternity (2 years)", "VP of Philanthropy Chair for the Alpha Sigma Phi Fraternity (1 year)", "Undergraduate Researcher @ CMU Robotics Institute, Biorobotics Lab (2 years)"]}
                 extra={[]}>
               </InfoCard>
@@ -59,9 +58,9 @@ const problemsCompleted = await fetchLeetcodeValue("this-scott", "submissionCoun
               <li className="list-disc ml-6 text-lg">{problemsCompleted} total problems completed</li>
               <h2 className="text-xl pt-6">{"Current Position"}</h2>
               <InfoCard
-                title={"Technology Associate & Software Engineer 1 @ Capitol CNCT"}
+                title={"Technology Associate & Software Engineer @ Capitol CNCT"}
                 subtitle=""
-                text={["Focusing on internal tools and events software", "Ramping up for web and app changes"]}
+                text={["Sole internal software engineer working with a team of contractors to maintain and enhance our web platform deployed on AWS infrastructure"]}
                 extra={[]}
                 className="snap-start">
               </InfoCard>
@@ -220,9 +219,9 @@ const problemsCompleted = await fetchLeetcodeValue("this-scott", "submissionCoun
               <h3></h3>
               </div>
               <div className="flex flex-row font-medium px-4 sm:px-8 lg:px-12 justify-evenly p-3">
-                <a target="_blank" rel="noopener noreffer" href="https://scott-cv-presentation-slide-resources.s3.us-east-1.amazonaws.com/Scott_Styslinger_Resume.pdf"><h1 className="hover:font-bold hover:underline ">resume</h1></a>
-                <a target="_blank" rel="noopener noreffer" href="https://github.com/this-scott"><h1 className="hover:font-bold hover:underline">github</h1></a>
-                <a target="_blank" rel="noopener noreffer" href="https://linkedin.com/in/this-scott"><h1 className="hover:font-bold hover:underline">linkedIn</h1></a>
+                <a target="_blank" rel="noopener noreffer" href="https://scott-cv-presentation-slide-resources.s3.us-east-1.amazonaws.com/Scott_Styslinger_Resume.pdf"><h1 className="hover:font-bold hover:underline ">Resume</h1></a>
+                <a target="_blank" rel="noopener noreffer" href="https://github.com/this-scott"><h1 className="hover:font-bold hover:underline">Github</h1></a>
+                <a target="_blank" rel="noopener noreffer" href="https://linkedin.com/in/this-scott"><h1 className="hover:font-bold hover:underline">LinkedIn</h1></a>
               </div>
             </div>
           </div>
