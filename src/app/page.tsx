@@ -28,7 +28,7 @@ const problemsCompleted = await fetchLeetcodeValue("this-scott", "submissionCoun
               <div id="not another div">
                 <h4 className="text-xl">{"Hi I'm"}</h4>
                 <h1 className="font-bold text-6xl sm:text-8xl">Scott Styslinger</h1>
-                <h4 className="pt-1 text-xl">Information Science Graduate, Full Stack SWE with a Robotics Background</h4>
+                <h4 className="pt-1 text-xl">Information Science Graduate, SWE with Robotics and Full Stack Experience</h4>
               </div>
             </div>
             <div className="w-full md:w-1/2">
@@ -53,7 +53,9 @@ const problemsCompleted = await fetchLeetcodeValue("this-scott", "submissionCoun
                 <li className="list-disc ml-6 text-lg">Expires August 2029</li>
               </h2>
               <h2 className="font-bold text-2xl pt-6">
-                Hobby Programmer + Leetcoder
+                <a className="font-bold hover:underline" target="_blank" rel="noopener noreffer" href="https://leetcode.com/u/this-scott/">
+                  Hobby Programmer + Leetcoder
+                </a>
               </h2>
               <li className="list-disc ml-6 text-lg">{problemsCompleted} total problems completed</li>
               <h2 className="text-xl pt-6">{"Current Position"}</h2>
