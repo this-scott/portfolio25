@@ -28,7 +28,7 @@ const problemsCompleted = await fetchLeetcodeValue("this-scott", "submissionCoun
               <div id="not another div">
                 <h4 className="text-xl">{"Hi I'm"}</h4>
                 <h1 className="font-bold text-6xl sm:text-8xl">Scott Styslinger</h1>
-                <h4 className="pt-1 text-xl">Information Science Graduate, Software Engineer, aspiring IT Architect</h4>
+                <h4 className="pt-1 text-xl">Information Science Graduate, Full Stack SWE with a Robotics Background</h4>
               </div>
             </div>
             <div className="w-full md:w-1/2">
@@ -47,10 +47,10 @@ const problemsCompleted = await fetchLeetcodeValue("this-scott", "submissionCoun
                 extra={[]}>
               </InfoCard>
               <h2 className="text-2xl pt-6">
-                <a className="font-bold hover:underline" target="_blank" rel="noopener noreffer" href="https://scott-cv-presentation-slide-resources.s3.us-east-1.amazonaws.com/AWS+Certified+Cloud+Practitioner+certificate.pdf">
+                <a className="font-bold hover:underline" target="_blank" rel="noopener noreffer" href="https://scott-cv-presentation-slide-resources.s3.us-east-1.amazonaws.com/Scott_Styslinger_AWS_Certified_Cloud_Practitioner_certificate.pdf">
                   AWS Certified Cloud Practitioner
                 </a>
-                <li className="list-disc ml-6 text-lg">Renewing before September 2026</li>
+                <li className="list-disc ml-6 text-lg">Expires August 2029</li>
               </h2>
               <h2 className="font-bold text-2xl pt-6">
                 Hobby Programmer + Leetcoder
@@ -103,7 +103,7 @@ const problemsCompleted = await fetchLeetcodeValue("this-scott", "submissionCoun
               <h2 className="font-bold text-3xl pt-4 snap-start">Other Jobs:</h2>
               <ul className="list-disc ml-6 text-lg">
                 <li>
-                  <Markdown>**Front of House** @ Tatte (2025-🤫)</Markdown>
+                  <Markdown>**Front of House** @ Tatte (Fall 2025, Part time until June 2026)</Markdown>
                 </li>
                 <li>
                   <Markdown>**DC Tour Guide** @ US Ghost Adventures (Summer 2023)</Markdown>
