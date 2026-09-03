@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "name": "Hard Drive Screw Remover",
+        "company": "CMU Biorobotics Lab",
+        "categories": [0,1],
+        "languages": [2,3,7],
+        "tools": [0],
+        "finished": 1,
+        "description": [
+            "Implemented **YOLO object detection** and **ICP based template** recognition system to **map screws on harddrive for destruction**",
+            "Created an error correction system which could detect missed screw destruction and repeat punch step",
+            "Mapped and streamed ROS node traffic to optimize development",
+            "Prequel project to [Roboloop](https://www.cmu.edu/news/stories/archives/2025/february/cmu-robot-works-inside-e-waste-recycling-facility)"
+        ],
+        "media": ["https://drive.google.com/file/d/14ujnJgRBxbtB4BcVi4S2QRCynOP8oaFS/preview"],
+        "mediaType": [1]
+    }
+]
