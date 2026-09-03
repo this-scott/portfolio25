@@ -120,13 +120,13 @@ const problemsCompleted = await fetchLeetcodeValue("this-scott", "submissionCoun
                   <Markdown>**DC Tour Guide** @ US Ghost Adventures (Summer 2023)</Markdown>
                 </li>
                 <li>
-                  <Markdown>**Busboy** @ Local Country Club (Summer 2022)</Markdown>
+                  <Markdown>**Busboy** @ Local Country Club (Summer 2023)</Markdown>
                 </li>
                 <li>
-                  <Markdown>**Summer Camp Counselor** (End Summer 2021)</Markdown>
+                  <Markdown>**Summer Camp Counselor** @  Lavner Edu (End Summer 2022)</Markdown>
                 </li>
                 <li>
-                  <Markdown>{"**Domino's Delivery Driver** (Spring+Summer 2020)"}</Markdown>
+                  <Markdown>{"**Delivery Driver @ Domino's** (Spring+Summer 2021)"}</Markdown>
                 </li>
               </ul>
             </div>
