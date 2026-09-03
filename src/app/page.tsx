@@ -62,9 +62,14 @@ const problemsCompleted = await fetchLeetcodeValue("this-scott", "submissionCoun
               <li className="list-disc ml-6 text-lg">{problemsCompleted} total problems completed</li>
               <h2 className="text-xl pt-6">{"Current Position"}</h2>
               <InfoCard
-                title={"Technology Associate & Software Engineer @ Capitol CNCT"}
-                subtitle=""
-                text={["Sole internal software engineer working with a team of contractors to maintain and enhance our web platform deployed on AWS infrastructure"]}
+                title={"Software Engineer @ Capitol CNCT"}
+                subtitle={"September 2025-Present (Internship September 2025-January 2026)"}
+                text={[
+                  "Solo engineer architecting and maintaining a **Next.js / .NET C# / SQL platform serving 1,500 monthly active users**. Shipped features that drove **31% user growth in 8 months** while coordinating operations with a contracted team",
+                  "Initiated security audits and remediated all findings. **Enforced least-privilege access** (tiered credentials, OTP authentication, token expiration), separated user and admin APIs, and **encrypted sensitive user identifiers behind asymmetric keys**",
+                  "Automated core workflows featuring a **Terraform-deployed web crawler** (Claude, Playwright, FastAPI) that cut event/job listing creation to a single link input, and API-integrated automations for metrics, polling aggregation, and Mailchimp, **eliminating 5 hrs/week of manual data entry**",
+                  "**Vectorized 400 polls into a retrieval-augmented generation pipeline** using Amazon Bedrock for embeddings and OpenSearch for retrieval, replacing manual spreadsheet digging with natural-language queries for audience insights"
+                ]}
                 extra={[]}
                 className="snap-start">
               </InfoCard>
