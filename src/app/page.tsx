@@ -28,11 +28,13 @@ const problemsCompleted = await fetchLeetcodeValue("this-scott", "submissionCoun
               <div id="not another div">
                 <h4 className="text-xl">{"Hi I'm"}</h4>
                 <h1 className="font-bold text-6xl sm:text-8xl">Scott Styslinger</h1>
-                <h4 className="pt-1 text-xl">Information Science Graduate, SWE with Robotics and Full Stack Experience</h4>
+                <h4 className="pt-4 text-xl">Information Science Graduate, SWE with Robotics and Full Stack Experience</h4>
               </div>
             </div>
             <div className="w-full md:w-1/2">
-              <Image className="w-full h-auto object-contain" src={fire} alt="landing_photo"></Image>
+              <div className="rounded-lg p-2 bg-[#faf8f4] shadow-[0_8px_24px_rgba(110,51,32,0.15)]">
+                <Image className="w-full h-auto object-contain rounded-sm" src={fire} alt="landing_photo"></Image>
+              </div>
             </div>
           </div>
         </div>
@@ -67,7 +69,9 @@ const problemsCompleted = await fetchLeetcodeValue("this-scott", "submissionCoun
                 className="snap-start">
               </InfoCard>
             </div>
-            <Image className="h-auto object-contain w-full md:w-1/4" src={aboutme_photo} alt="aboutme_photo"></Image>
+            <div className="w-full md:w-1/4 rounded-lg p-2 bg-[#faf8f4] shadow-[0_8px_24px_rgba(110,51,32,0.15)] self-start">
+              <Image className="w-full h-auto object-contain rounded-sm" src={aboutme_photo} alt="aboutme_photo"></Image>
+            </div>
           </div>
         </div>
         <div id="previously section" className="flex flex-col w-full snap-start">
@@ -121,7 +125,9 @@ const problemsCompleted = await fetchLeetcodeValue("this-scott", "submissionCoun
                 </li>
               </ul>
             </div>
-            <Image className="h-auto object-contain w-full md:w-1/3" src={ug} alt="aboutme_photo"></Image>
+            <div className="w-full md:w-1/3 rounded-lg p-2 bg-[#faf8f4] shadow-[0_8px_24px_rgba(110,51,32,0.15)] self-start">
+              <Image className="w-full h-auto object-contain rounded-sm" src={ug} alt="aboutme_photo"></Image>
+            </div>
           </div>
         </div>
         <div id="gallery section" className="flex flex-col w-full gap-12 snap-start">
@@ -129,7 +135,7 @@ const problemsCompleted = await fetchLeetcodeValue("this-scott", "submissionCoun
             <div className="flex flex-col">
               <h2 className="text-2xl pt-2">Here are some</h2>
               <h1 className="font-bold text-6xl">{"Projects I've worked on"}</h1>
-              <h3>(The Gallery Section)</h3>
+              <h3 className="pt-2">(The Gallery Section)</h3>
             </div>
           </div>
           <GalleryCard
